@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    width: 500px;
+    padding: 5px 5px 5px 20px;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+}
+
+.input {
+    margin-right: 4;
+    flex: 1 0 0;
+}
+
+.button {
+    display: block;
+    height: 36px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button__search {
+    width: 40px;
+    height: 32px;
+    background: no-repeat center center url('../images/search.svg') #000;
+}

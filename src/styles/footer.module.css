@@ -1,0 +1,18 @@
+.footer {
+    border-top: 1px solid #c3c3c3;
+}
+
+.wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pinned {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+    width: 100vw;
+}

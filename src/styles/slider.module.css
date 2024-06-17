@@ -1,0 +1,14 @@
+.slider {
+    padding: 20px 0;
+}
+
+.swiper {
+    width: 1250px;
+    height: 558px;
+}
+
+.slide img {
+    max-height: 558px;
+    width: 1250px;
+    object-fit: contain;
+}

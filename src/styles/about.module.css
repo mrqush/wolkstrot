@@ -1,0 +1,13 @@
+.text__wrapper {
+    padding: 20px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.image {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}

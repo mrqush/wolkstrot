@@ -1,0 +1,133 @@
+.previewcatalog {}
+
+.sectiontitle {
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: start;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+    line-height: 16px;
+}
+
+.sectiontitle__button {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 66px;
+    border: 1px solid;
+    border-color: #000;
+}
+
+.arrow {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.img {
+    border-radius: 6px 6px 0 0;
+    height: 190px;
+}
+
+.card__bottom {
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 12px;
+    height: 48px;
+}
+
+.card__description {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 12px;
+    height: 32px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    align-items: center;
+    max-height: 24px;
+}
+
+.card__buy {
+    margin-top: 12px;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.loader {
+    margin: 0 auto;
+}
+
+.slide {
+    width: auto;
+}
+
+.price__old {
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.price__old + span {
+    color: #FF6C6C;
+    font-weight: 500;
+}
+
+.discout__price {
+    margin-top: 3px;
+    display: flex;
+    gap: 3px;
+    font-size: 14px;
+}

@@ -1,0 +1,77 @@
+.card__img {
+    display: flex;
+    gap: 3px;
+    width: 100px;
+    height: 50px;
+}
+
+.label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.label:last-child {
+    height: 40px;
+}
+
+.payment {
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input {
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    padding: 5px;
+}
+
+.form__card {
+    display: flex;
+    gap: 5px;
+}
+
+.btc__wrapper {
+    padding: 8px;
+    background: #A7A7A7;
+    line-height: 20px;
+}
+
+.total__text {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 4px;
+    background: #000;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 245px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.buttons__wrapper {
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cancel {
+    background: #fff;
+    color: #000;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
